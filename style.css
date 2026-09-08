@@ -20,13 +20,13 @@ body{
 }
 
 .logo{
-    width:140px;
-    margin-bottom:10px;
+    width:160px;
+    margin-bottom:15px;
 }
 
-h1{
-    margin:0;
+h1{ margin:5px 0 10px 0;
     font-size:38px;
+    color:#333;
 }
 
 .intro{
