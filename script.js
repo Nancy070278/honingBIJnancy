@@ -1,4 +1,4 @@
-let amount = 1;
+alert("script gestart");let amount = 1;
 const pricePerJar = 7;
 const maxJars = 6;
 
