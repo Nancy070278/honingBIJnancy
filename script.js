@@ -4,13 +4,13 @@ const pricePerJar = 7;
 function update() {
     document.getElementById("amount").innerText = amount;
 
-    let total = amount * pricePerJar;
+    const total = amount * pricePerJar;
+    const totalText = "€" + total.toFixed(2).replace(".", ",");
 
-    document.getElementById("price").innerText =
-        "€" + total.toFixed(2).replace(".", ",");
+    document.getElementById("price").innerText = totalText;
 
     document.querySelector(".paybutton").innerText =
-        "Betaal €" + total.toFixed(2).replace(".", ",");
+        "💳 Betaal " + totalText;
 }
 
 function plus() {
