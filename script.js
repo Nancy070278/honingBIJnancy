@@ -47,10 +47,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const link = paymentLinks[amount];
 
-        if (link) {
-            window.open(link, "_blank");
-        } else {
-            alert("Betaallink niet beschikbaar.");
+       if (link) {
+    alert(link);
+} else {
+    alert("Betaallink niet beschikbaar.");
+}
         }
 
     });
